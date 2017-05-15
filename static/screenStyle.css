@@ -1,0 +1,92 @@
+@import url('/static/rootStyle.css');
+
+.logout{
+	border-width:		0px 0px 0px 1px;
+}
+
+.logout-button{
+	font-size: 			1rem;
+}
+
+header{
+	height:				6rem;
+}
+
+#headerText{
+	font-size:			3rem;
+	padding:			1rem;
+}
+
+#toolbar{
+	border-width:		0px 0px 1px 0px;
+}
+
+.toolbarEntry{
+	border-width:		0px 0px 0px 1px;
+	padding:			0.125rem 0.125rem 0.1875rem 0.125rem;
+	font-size: 			1rem;
+}
+
+main{
+	margin:				1rem;
+	padding:			0.5rem;
+	font-size: 			1rem;
+}
+
+.thread{
+	margin:				0.3rem;
+	padding:			0.3rem;
+}
+
+.threadTitle{
+	font-size: 			1.4rem;
+	padding:			0.125rem;
+}
+
+.threadText{
+	padding: 			0.3rem;
+	font-size: 			1rem;
+}
+
+.commentOdd{
+	margin:				0.3rem;
+	margin-right: 		0.1rem;
+	padding:			0.3rem;
+	padding-right: 		0.1rem;
+	font-size: 			1.5rem;
+}
+
+.commentEven{
+	margin:				0.3rem;
+	margin-right: 		0.1rem;
+	padding:			0.3rem;
+	padding-right: 		0.1rem;
+	font-size: 			1.5rem;
+}
+
+.commentText{
+	padding: 			0.3rem;
+	font-size: 			1rem;
+}
+
+.extraPostInfo{
+	font-size: 			0.8rem;
+}
+
+h1{
+	font-size: 			3rem;
+	padding-bottom: 	0.625rem;
+}
+
+h3{
+	font-size: 			1rem;
+	padding-bottom: 	0.625rem;
+}
+
+.dropDown{
+	padding-right: 		1.25rem;
+}
+
+.dropDown ul{
+    box-shadow: 		0px 0.5rem 1rem 0px rgba(0,0,0,0.2);
+}

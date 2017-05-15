@@ -1,0 +1,108 @@
+
+@import url('/static/handheldStyle.css') handheld;
+@import url('/static/screenStyle.css') screen;
+
+.logout {
+  	border-color:		#0f0f0f;
+  	border-style:		solid;
+  	background-color:	#f1f1f1;
+  	color:				#0f0f0f;
+}
+
+.logout-button {
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+}
+
+body{
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+}
+
+header{
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+}
+
+#toolbar{
+	border-color:		#0f0f0f;
+	border-style:		solid;
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+}
+
+.toolbarEntry{
+	border-color:		#0f0f0f;
+	border-style:		solid;
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+}
+
+main{
+	background-color: 	#5A5A5A;
+	color:				#0f0f0f;
+	border-radius: 		5px;
+}
+
+.thread{
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+	border-radius: 		5px;
+}
+
+.commentOdd{
+	background-color:	#5A5A5A;
+	color:				#0f0f0f;
+	border-radius: 		5px;
+}
+
+.commentEven{
+	background-color:	#f1f1f1;
+	color:				#0f0f0f;
+	border-radius: 		5px;
+}
+
+.errorText{
+	color:				#FFAAAA;
+}
+
+a{
+	color:				#0f0f0f;
+}
+
+.dropBtn{
+    color: 				#0f0f0f;
+}
+
+.dropDown ul{
+    background-color: 	#a5a5a5;
+}
+
+.dropDown li{
+	color: 				black;
+}
+
+.dropDown li:hover{
+	background-color: 	#5a5a5a
+}
+
+.dropDown:hover .dropBtn{
+	color: 				#0f0f0f;
+    background-color: 	#a5a5a5;
+}
+
+.greenText{
+	color: 				green;
+}
+
+/*Text Colors for the different user position*/
+.senateTag{
+	color: 				purple;
+}
+
+.adminTag{
+	color: 				red;
+}
+.moderatorTag{
+	color: 				blue;
+}

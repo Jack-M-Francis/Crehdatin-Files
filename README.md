@@ -1,1 +1,0 @@
-# Crehdatin-Static

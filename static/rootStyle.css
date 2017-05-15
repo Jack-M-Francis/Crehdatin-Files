@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 			0;
+	padding: 			0;
+	border: 			0;
+	vertical-align: 	baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: 			block;
+}
+body {
+	line-height: 		1;
+}
+ol, ul {
+	list-style: 		none;
+}
+blockquote, q {
+	quotes: 			none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: 			'';
+	content: 			none;
+}
+table {
+	border-collapse: 	collapse;
+	border-spacing: 	0;
+}
+/*This is the inline logout button*/
+.inline {
+  	display: 			inline;
+}
+
+.link-button {
+	display:			inline;
+  	text-decoration: 	underline;
+  	cursor: 			pointer;
+    background: 		none;
+	border:				none;
+}
+.link-button:focus {
+  	outline: 			none;
+}
+.link-button:active {
+  	/*color:red;*/
+}
+
+.logout {
+  	display: 			inline;
+  	height: 			auto;
+  	float:				right;
+  	font-family:		sans-serif;
+}
+
+.logout-button {
+	display:			inline;
+	height:				auto;
+	float:				right;
+	font-family:		sans-serif;
+  	background: 		none;
+	border: 			none;
+  	text-decoration: 	underline;
+  	cursor: 			pointer;
+}
+.logout-button:focus {
+  	outline: 			none;
+}
+.logout-button:active {
+  /*color:red;*/
+}
+
+/*This is my stuff*/
+
+body{
+}
+
+header{
+	display:			block;
+}
+
+#headerText{
+	display:			block;
+	float:				left;
+	width:				auto;
+	height:				auto;
+	font-family:		sans-serif;
+}
+
+#toolbar{
+	display:			inline;
+	float:				right;
+	height:				auto;
+	width:				auto;
+}
+
+.toolbarEntry{
+	display:			inline;
+	height:				auto;
+	float:				right;
+	font-family:		sans-serif;
+}
+
+main{
+	display: 			block;
+	font-family:		sans-serif;
+	height:				auto;
+}
+
+.thread{
+}
+
+.threadTitle{
+	word-wrap: 			break-word;
+	overflow: 			hidden;
+	display: 			block;
+	height: 			auto;
+	font-weight: 		bold;
+}
+
+.threadText{
+	word-wrap: 			break-word;
+	overflow: 			hidden;
+	font-weight: 		normal;
+	font-family:		sans-serif;
+	display:			block;
+}
+
+.commentOdd{
+	display:			block;
+	font-family:		sans-serif;
+}
+
+.commentEven{
+	display:			block;
+	font-family:		sans-serif;
+}
+
+.commentText{
+	word-wrap: 			break-word;
+	overflow: 			hidden;
+	font-weight: 		normal;
+	font-family:		sans-serif;
+	height: 			auto;
+	display:			block;
+}
+
+.extraPostInfo{
+	display:			inline-block;
+	font-family:		sans-serif;
+}
+
+.errorText{
+}
+
+h1{
+	font-family:		sans-serif;
+}
+
+h3{
+	font-family:		sans-serif;
+}
+
+a{
+}
+
+.dropDown{
+	position: 			relative;
+    display: 			inline-block;
+}
+
+.dropBtn{
+    border: 			none;
+    cursor: 			pointer;
+}
+
+.dropDown ul{
+	display: 			none;
+    position: 			absolute;
+    z-index: 			1;
+	width:				auto;
+}
+
+.dropDown li{
+	color: 				black;
+    text-decoration: 	none;
+    display: 			block;
+}
+
+.dropDown li:hover{
+}
+
+.dropDown:hover ul{
+    display: 			block;
+}
+
+.dropDown:hover .dropBtn{
+}
+
+.greenText{
+	display: 			inline;
+}
+
+/*Text Colors for the different user position*/
+.senateTag{
+	color: 				purple;
+	display: 			inline;
+}
+
+.adminTag{
+	color: 				red;
+	display: 			inline;
+}
+.moderatorTag{
+	color: 				lightblue;
+	display: 			inline;
+}

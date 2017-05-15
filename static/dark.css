@@ -1,0 +1,107 @@
+@import url('/static/handheldStyle.css') handheld;
+@import url('/static/screenStyle.css') screen;
+
+.logout {
+  	border-color:		#ffffff;
+  	border-style:		solid;
+  	background-color:	#1f1f1f;
+  	color:				#ffffff;
+}
+
+.logout-button {
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+}
+
+body{
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+}
+
+header{
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+}
+
+#toolbar{
+	border-color:		#ffffff;
+	border-style:		solid;
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+}
+
+.toolbarEntry{
+	border-color:		#ffffff;
+	border-style:		solid;
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+}
+
+main{
+	background-color: 	#5A5A5A;
+	color:				#FFFFFF;
+	border-radius: 		5px;
+}
+
+.thread{
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+	border-radius: 		5px;
+}
+
+.commentOdd{
+	background-color:	#5A5A5A;
+	color:				#ffffff;
+	border-radius: 		5px;
+}
+
+.commentEven{
+	background-color:	#1f1f1f;
+	color:				#ffffff;
+	border-radius: 		5px;
+}
+
+.errorText{
+	color:				#FFAAAA;
+}
+
+a{
+	color:				#ffffff;
+}
+
+.dropBtn{
+    color: 				#ffffff;
+}
+
+.dropDown ul{
+    background-color: 	#a5a5a5;
+}
+
+.dropDown li{
+	color: 				black;
+}
+
+.dropDown li:hover{
+	background-color: 	#5a5a5a
+}
+
+.dropDown:hover .dropBtn{
+	color: 				#000000;
+    background-color: 	#a5a5a5;
+}
+
+.greenText{
+	color: 				green;
+}
+
+/*Text Colors for the different user position*/
+.senateTag{
+	color: 				purple;
+}
+
+.adminTag{
+	color: 				red;
+}
+.moderatorTag{
+	color: 				lightblue;
+}

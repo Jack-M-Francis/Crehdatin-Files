@@ -1,0 +1,87 @@
+
+@import url('/static/handheldStyle.css') handheld;
+@import url('/static/screenStyle.css') screen;
+
+a{
+	color:white;
+}
+ header{
+    background-color: rgba(0,0,0,0);
+    background-image: url(http://i.imgur.com/VB3jUuZ.png);
+    background-position: center;
+    background-size: 600px;
+    background-repeat: no-repeat;
+  }
+  body{
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://i.ytimg.com/vi/fw-aXF-L8-k/maxresdefault.jpg);
+    background-position-y: 831px;
+    background-attachment: fixed;
+  }
+  #toolbar{
+    background-color: rgba(0,0,0,0);
+	border-color: white;
+	border-style: solid;
+	border-bottom-width: 1px;
+  }
+  .toolbarEntry{
+	border-style: solid;
+	border-color: white;
+	border-left-width: 1px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+  }
+  .logout{
+	 border-style: solid;
+  	border-color: white;
+  	border-left-width: 1px;
+    background-color: rgba(0,0,0,0);
+  }
+  .logout-button{
+	color: white;
+    background-color: rgba(0,0,0,0);
+  }
+  .commentText{
+    background-color: rgba(0,0,0,0);
+  }
+  .commentEven{
+    background-color: rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 1px;
+	border-color: white;
+  }
+  .commentOdd{
+    background-color: rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 1px;
+  }
+  main{
+    background-color: rgba(0,0,0,0);
+  }
+  .thread{
+    background-color: rgba(0,0,0,0);
+    border-left-color: white;
+    border-left-width: 10px;
+    border-left-style: solid;
+  }
+  .dropDown {
+	  color: white;
+  }
+  .dropDown ul{
+	background-color: white;
+  }
+  .dropDown li{
+    background-color: white;
+  }
+  .threadText{
+	  color: white;
+  }
+  .threadTitle{
+	  color: white;
+  }
+  .extraPostInfo{
+	  color: white;
+  }
+  .greenText{
+  	color: 				green;
+  }
